@@ -1,0 +1,264 @@
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* Global Styling */
+:root {
+  --white: ; /* Define your main color variable */
+  --black: ; /* Define your secondary color variable */
+  --green: ; /* Define your tertiary color variable */
+  --box-shadow: ; /* Define your box shadow variable */
+}
+
+/* Reset and Normalize */
+*,
+*::after,
+*::before {
+  /* padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif; */
+}
+
+html {
+  /* font-size: 62.5%; */
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5; */
+}
+
+img,
+picture {
+  /* max-width: 100%; */
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  /* display: block; */
+}
+
+body {
+  background-color: #101010;
+  overflow-x: hidden;
+  color: white;
+}
+
+/* Navigation Styling */
+
+/* Step 1: Navigation Bar Styles */
+nav {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+}
+
+nav .container {
+  background-color: ##101010ab;
+  border: 2px solid #cecece;
+  display: flex;
+  border-radius: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav .logo {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Step 4: Navigation List Styles */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: auto;
+  z-index: auto;
+  margin: auto;
+  padding-left: 65%;
+}
+
+/* Step 5: Navigation List Item Styles */
+nav ul li {
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  cursor: auto;
+  transition: none;
+}
+
+/* Step 6: Navigation List Item Hover Styles */
+nav ul li:hover {
+  border: 0;
+  border-radius: 0;
+  transition: none;
+}
+
+/* Step 7: Navigation List Item Anchor Styles */
+nav ul li a {
+  color: white;
+  font-weight: auto;
+  transition: none;
+}
+
+/* Step 8: Navigation List Item Anchor Hover Styles */
+nav ul li:hover > a {
+  color: yellow;
+  transition: none;
+}
+
+/* Step 9: Responsive Styles for Navigation */
+@media only screen and (max-width: 880px) {
+  nav {
+    margin: auto;
+  }
+}
+
+/* Step 10: Responsive Styles for Hidden Navigation on Small Screens */
+@media only screen and (max-width: 700px) {
+  nav ul {
+    display: flex;
+  }
+}
+
+/* Slider Section Styling */
+
+/* Step 1: Section Styles */
+section {
+  margin-bottom: 100px;
+  position: static;
+  padding-top: 10px;
+  border-bottom: 3px solid white;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  height: 100%;
+  text-align: center;
+  box-shadow: 0px 20px 30px 0px #ffffff71;
+}
+
+section h1 {
+  margin: 10px;
+  padding: 0;
+  font-size: 50px;
+}
+
+section p {
+  margin: 10px;
+  padding: 0;
+}
+
+/* Step 2: Content Styles */
+.article {
+  background-color: #0e0e0eab;
+  border: 2px solid #cecece;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  width: 70%;
+  justify-content: center;
+}
+
+.article img {
+  margin: 30px;
+  border-radius: 50px;
+}
+
+/* Step 3: Heading Styles */
+.article h2 {
+  font-size: 26px;
+  margin-right: 30px;
+}
+
+/* Step 4: Paragraph Styles */
+.article p {
+  font-size: 16px; 
+  margin: 30px;
+}
+
+.button {
+  margin-left: 30px;
+  padding: 5px;
+  width: 15%;
+  border-radius: 50px;
+}
+
+.button-post {
+  margin: auto;
+  padding: 5px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 50px;
+  border-width: 5px;
+  border-style: ridge;
+  border-bottom-color: blue;
+  border-top-color: green;
+  border-left-color: yellow;
+  border-right-color: red;
+}
+
+/* Step 5: Responsive Styles */
+@media only screen and (max-width: 945px) {
+  .article h2 {
+    font-size: auto;
+  }
+
+  .article p {
+    font-size: auto;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .article h2 {
+    font-size: auto;
+  }
+
+  .article p {
+    font-size: auto;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .article h2 {
+    font-size: auto;
+  }
+
+  .article p {
+    display: inherit;
+  }
+}
+
+footer {
+  margin-top: 100px;
+  position: static;
+  padding-bottom: 20px;
+  border-top: 3px solid white;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  height: 100%;
+  text-align: center;
+  box-shadow: 0px -20px 30px 0px #ffffff71;
+}
