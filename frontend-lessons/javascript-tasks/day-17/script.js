@@ -34,27 +34,57 @@
 
 // These tasks will help you strengthen your understanding of working with arrays in JavaScript. Arrays are powerful tools for managing and manipulating collections of data. Good luck! 🚀
 
-let cities = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix'];
-console.log(cities[2]);
-cities[1] = 'San Francisco';
+console.log('Working with Arrays in JavaScript - Day 17: Assignment');
 
+console.log('Task 1: Array Basics');
+let cities = ['New York', 'Los Angeles', 'Chicago', 'Manila', 'San Francisco'];
+console.log(cities[2]);
+cities[1] = 'Tokyo';
+console.log(cities[1]);
+
+console.log('Task 2: Array Operations');
 let fruits = ['apple', 'banana', 'orange'];
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
 fruits.push('grape');
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
 fruits.pop();
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
 
-let numbers = [1, 2, 3, 4, 5];
+console.log('Task 3: Advanced Array Techniques');
+let numbers = [10, 20, 30, 40, 50];
 let doubledNumbers = numbers.map(number => number * 2);
+console.log(doubledNumbers);
+
 let greaterThanFive = numbers.filter(number => number > 5);
+console.log(greaterThanFive);
 
+console.log('Task 4: Array Manipulation');
 let colors = ['red', 'blue', 'green', 'yellow'];
-colors.unshift('purple');
-colors.shift();
-let newColors = colors.slice(1, 3);
+console.log(colors);
 
+colors.unshift('purple');
+console.log(colors);
+
+colors.shift();
+console.log(colors);
+
+let newColors = colors.slice(1, 3);
+console.log(newColors);
+
+console.log('Task 5: Array Splicing');
 let characters = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log(characters);
+
 characters.splice(2, 0, 'g', 'h');
+console.log(characters);
+
 characters.splice(4, 3);
 console.log(characters);

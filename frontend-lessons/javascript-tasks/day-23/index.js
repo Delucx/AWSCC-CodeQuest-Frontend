@@ -72,8 +72,8 @@
 //         <title>Keypress Event Listener Assignment</title>
 //     </head>
 //     <body>
-//         <label for="myInput">Type Something:</label>
-//         <input type="text" id="myInput">
+        // <label for="myInput">Type Something:</label>
+        // <input type="text" id="myInput">
 
 //         <script>
 //             // JavaScript Code
