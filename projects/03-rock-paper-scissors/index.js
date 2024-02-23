@@ -94,7 +94,3 @@ resetGameButton.addEventListener("click", function () {
         // console.log("Reset game button was clicked");
     }   
 });
-
-// Step 4: Define helper functions that will be the actions of the game
-
-// Step 5: Embrace mistakes as opportunities for learning and improvement, and fuel your curiosity by exploring new the wonders of frontend development. The vast tech world is filled with exciting discoveries waiting for you. Ask when you have the need or want to! Just keep coding!
