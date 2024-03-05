@@ -1,7 +1,6 @@
 .desktop {
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
     background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     width: 100%;
 }
@@ -9,123 +8,24 @@
 .desktop .overlap-group-wrapper {
     background-color: #ffffff;
     overflow: hidden;
-    width: 1440px;
-    height: 720px;
 }
 
 .desktop .overlap-group {
-    position: relative;
-    width: 1450px;
-    height: 3283px;
-    top: -1061px;
-    left: -5px;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
-.desktop .element {
-    top: 643px;
-    left: 221px;
-    position: absolute;
-    font-family: "Itim-Regular", Helvetica;
-    font-weight: 400;
-    color: #101010b2;
-    font-size: 200px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .text-wrapper {
-    top: 883px;
-    left: 663px;
-    position: absolute;
-    font-family: "Itim-Regular", Helvetica;
-    font-weight: 400;
-    color: #101010b2;
-    font-size: 200px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .div {
-    top: 100px;
-    left: 1105px;
-    position: absolute;
-    font-family: "Itim-Regular", Helvetica;
-    font-weight: 400;
-    color: #101010b2;
-    font-size: 200px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .element-2 {
-    top: 530px;
-    left: 0;
-    position: absolute;
-    font-family: "Itim-Regular", Helvetica;
-    font-weight: 400;
-    color: #101010b2;
-    font-size: 200px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .element-3 {
-    top: 0;
-    left: 442px;
-    position: absolute;
-    font-family: "Itim-Regular", Helvetica;
-    font-weight: 400;
-    color: #101010b2;
-    font-size: 200px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .element-4 {
-    top: 480px;
-    left: 884px;
-    position: absolute;
-    font-family: "Itim-Regular", Helvetica;
-    font-weight: 400;
-    color: #101010b2;
-    font-size: 200px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .element-5 {
-    top: 480px;
-    left: 1326px;
-    position: absolute;
-    font-family: "Itim-Regular", Helvetica;
-    font-weight: 400;
-    color: #101010b2;
-    font-size: 200px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.desktop .rectangle {
-    position: absolute;
-    width: 1440px;
-    height: 1024px;
-    top: 1061px;
-    left: 5px;
-    background-color: #abababb2;
+.body {
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .desktop .welcome-to-number {
-    position: absolute;
-    top: 1237px;
-    left: 392px;
-    font-family: "Itim-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 100px;
@@ -135,43 +35,40 @@
 }
 
 .desktop .rectangle-2 {
-    position: absolute;
     width: 246px;
     height: 60px;
-    top: 1691px;
-    left: 602px;
     background-color: #ff9d9d;
     border-radius: 50px;
 }
 
+.container2 {
+    display: block;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
 .desktop .text-wrapper-2 {
     position: absolute;
-    top: 1696px;
-    left: 666px;
-    font-family: "Itim-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 40px;
     letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-@font-face {
-    font-family: "Itim-Regular";
-    src: url("Itim-Regular.ttf");
-  }
-
-.label {
-    width: 666px;
-    height: 360px;
 }
 
 .welcome-to-number {
-    position: fixed;
-    top: 0;
-    left: 0;
-    font-family: "Itim-Regular", sans-serif;
     font-weight: 400;
     color: #000000;
     font-size: 100px;
@@ -184,9 +81,11 @@
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.2);
     }
+
     100% {
         transform: scale(1);
     }

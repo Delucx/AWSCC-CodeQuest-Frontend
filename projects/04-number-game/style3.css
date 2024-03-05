@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'Itim-Regular';
-    src: url("D:\Downloads\Itim\Itim-Regular.ttf") format('ttf');
-  }
-
 body {
-    font-family: "Itim-Regular", sans-serif;
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -17,6 +12,68 @@ body {
     background: #f4f4f4;
     padding: 20px;
     margin-top: 20px;
+}
+
+.counterContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.guessCount1 {
+    text-align: center;
+}
+
+.guessCount2 {
+    text-align: center;
+}
+
+.difficulty {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.easy {
+    padding: 10px 20px;
+    background: #00600e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.normal {
+    padding: 10px 20px;
+    background: #565900;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.hard {
+    padding: 10px 20px;
+    background: #5b2f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.extreme {
+    padding: 10px 20px;
+    background: #5f0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 20%;
 }
 
 .container h1 {
@@ -33,15 +90,12 @@ body {
 
 .container button {
     padding: 10px 20px;
-    width: 100%;
     margin-bottom: 20px;
 }
 
 .container .message {
     text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -52,12 +106,3 @@ body {
 .container .message p:first-child {
     font-weight: bold;
 }
-
-.message {
-    color: red;
-}
-.message.correct {
-    color: green;
-}
-
-
