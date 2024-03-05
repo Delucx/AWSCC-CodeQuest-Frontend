@@ -23,6 +23,7 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    filter: blur(10px);
 }
 
 .desktop .welcome-to-number {

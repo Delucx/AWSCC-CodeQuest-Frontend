@@ -13,7 +13,7 @@
 
 <body>
     <div class="container">
-        <div>
+        <div class="title">
             <h1>Welcome to the Number Guessing Game!</h1>
         </div>
         <div class="counterContainer">
@@ -27,6 +27,9 @@
             </div>
         </div>
 
+        <div class="pDiff">
+            <p>Choose Difficulty</p>
+        </div>
         <div class="difficulty">
             <button class="easy" id="easy">Easy</button>
             <button class="normal" id="normal">Normal</button>
@@ -34,25 +37,28 @@
             <button class="extreme" id="extreme">EXTREME</button>
         </div>
 
-        <div>
-            <p>I am thinking of a number between 1 and 100</p>
-            <p>Take a guess and enter it below</p>
-        </div>
-        <div>
-            <input type="text" id="guessNumber">
+        <div class="timerDisplay" id="timerDisplay"></div>
+        <div class="imContainer">
+            <div class="inputContainer">
+                <input type="text" class="guessNumber" id="guessNumber">
+            </div>
             <div class="message">
                 <p id="message"></p>
             </div>
         </div>
-        <div>
-            <button id="checkNumber">Submit Guess</button>
-            <button id="tryAgain">Try Again</button>
-            <button id="resetGame">Reset Game</button>
+        <div class="buttonContainer">
+            <div class="gameButton">
+                <button class="checkNumber" id="checkNumber">Submit Guess</button>
+                <button class="tryAgain" id="tryAgain">Try Again</button>
+            </div>
+            <div>
+                <button class="resetGame" id="resetGame">Reset Game</button>
+            </div>
         </div>
     </div>
 
 
-    
+
     <script src="index.js"></script>
 </body>
 
