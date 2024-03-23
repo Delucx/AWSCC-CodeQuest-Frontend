@@ -32,7 +32,7 @@ rockBtn.addEventListener("click", function () {
             player1ScoreDisplay.textContent = parseInt(player1ScoreDisplay.textContent) + 1;
         } else if(player1ChoiceDisplay.textContent === "rock" && player2ChoiceDisplay.textContent === "paper") {
             gameStatusDisplay.textContent = "Player 2 wins!";
-            player2ScoreDisplay.textContent = parseInt(player1ScoreDisplay.textContent) + 1;
+            player2ScoreDisplay.textContent = parseInt(player2ScoreDisplay.textContent) + 1;
         }
 
         // console.log("Rock was clicked");
@@ -54,7 +54,7 @@ paperBtn.addEventListener("click", function () {
             player1ScoreDisplay.textContent = parseInt(player1ScoreDisplay.textContent) + 1;
         } else if(player1ChoiceDisplay.textContent === "paper" && player2ChoiceDisplay.textContent === "scissors") {
             gameStatusDisplay.textContent = "Player 2 wins!";
-            player2ScoreDisplay.textContent = parseInt(player1ScoreDisplay.textContent) + 1;
+            player2ScoreDisplay.textContent = parseInt(player2ScoreDisplay.textContent) + 1;
         }
 
         // console.log("Paper was clicked");
@@ -76,7 +76,7 @@ scissorsBtn.addEventListener("click", function () {
             player1ScoreDisplay.textContent = parseInt(player1ScoreDisplay.textContent) + 1;
         } else if(player1ChoiceDisplay.textContent === "scissors" && player2ChoiceDisplay.textContent === "rock") {
             gameStatusDisplay.textContent = "Player 2 wins!"
-            player2ScoreDisplay.textContent = parseInt(player1ScoreDisplay.textContent) + 1;
+            player2ScoreDisplay.textContent = parseInt(player2ScoreDisplay.textContent) + 1;
         }
 
         // console.log("Scissors was clicked");
